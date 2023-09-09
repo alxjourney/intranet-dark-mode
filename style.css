@@ -11930,12 +11930,6 @@ input.correction_checkbox {
     padding-left: 0
 }
 
-h2.hbtn_logo {
-    background: url(/assets/holberton-logo-full-alx-d053727941512ebe04b797ca87d81a195004e9ff2d8a6aedf4004c5365cf8944.png) no-repeat center;
-    background-size: contain;
-    height: 80px
-}
-
 .evaluation_quiz_question_form.missing-answers {
     border: 1px solid #d9534f
 }
@@ -12544,10 +12538,6 @@ h2.hbtn_logo {
     border-radius: 10px;
     height: 100%;
     width: 100%
-}
-
-.navigation>ul>li a .image.slack .inner {
-    background-image: url(/assets/slack-logo-4e959344c754db5a76e6d3b54c4b6507ca081239996f13f4d4fe521745e2c0aa.svg)
 }
 
 .navigation>ul>li a .icon.discord {
@@ -13364,23 +13354,7 @@ form.search-form input[type='search'] {
     display: none
 }
 
-.sidebar .logo-container {
-    background: transparent;
-    border-bottom: 1px solid #eee;
-    border-right: 1px solid #eee;
-    left: 0;
-    padding: 20px 10px;
-    position: fixed;
-    top: 0;
-    width: 70px;
-}
-
 .sidebar .logo-container .logo {
-    background: url(/assets/holberton-logo-full-alx-d053727941512ebe04b797ca87d81a195004e9ff2d8a6aedf4004c5365cf8944.png) no-repeat center;
-    background-size: contain;
-    height: 40px;
-    margin: auto;
-    width: 40px;
     background-color: #fff;
 }
 
@@ -13921,13 +13895,6 @@ form.search-form input[type='search'] {
     align-items: center;
     display: flex;
     padding: 10px
-}
-
-.topbar .navbar-brand .logo {
-    background: url(/assets/holberton-logo-full-alx-d053727941512ebe04b797ca87d81a195004e9ff2d8a6aedf4004c5365cf8944.png) no-repeat center;
-    background-size: contain;
-    height: 30px;
-    width: 30px
 }
 
 .topbar .nav li a {
@@ -14582,15 +14549,6 @@ img.placeholder-user {
 
 .video-rooms .video-rooms-grid .video-room-labels>.label:not(:last-child),.video-rooms .video-rooms-list .video-room-labels>.label:not(:last-child) {
     margin-right: 8px
-}
-
-.video-rooms .colored-icon::before {
-    background: url(/assets/holberton-logo-full-alx-d053727941512ebe04b797ca87d81a195004e9ff2d8a6aedf4004c5365cf8944.png) no-repeat center;
-    background-size: contain;
-    content: ' ';
-    display: block;
-    height: 100%;
-    width: 100%
 }
 
 .file_upload_video {
