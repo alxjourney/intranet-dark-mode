@@ -5,9 +5,7 @@ function doDark(run = true){
     css.remove();
 
   if(run && !css)
-    fetch("https://raw.githubusercontent.com/alxjourney/intranet-dark-mode/main/style.css")
-      .then(res => res.text())
-      .then( res => document.body.insertAdjacentHTML("beforeend", `<style id="intranet-dark-mode">${res}</style>`))
+    document.head.insertAdjacentHTML("beforeend", `<link href="https://alxjourney.github.io/intranet-dark-mode/style.css" id="intranet-dark-mode" rel="stylesheet" />`)
 } 
 
 doDark();
